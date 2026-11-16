@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My pet page</title>
+    <style>
+        body {
+            font-family: arial, san-serif;
+            background-color: lightyellow;
+            padding: 65px 30px 30px 30px;
+            min-height: 1500px;
+        }
+
+        h1,
+        h2 {
+            color: darkorange;
+
+        }
+
+        .top-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: darkorange;
+            color: white;
+            padding: 14px 20px;
+        }
+
+        .list-item {
+            background-color: white;
+            border: 2px solid darkorange;
+            padding: 10px 20px;
+            margin: 5px 0;
+
+        }
+
+        .special-note {
+            position: relative;
+            left: 30px;
+            background-color: gold;
+            padding: 10px 20px;
+        }
+
+        .pet-card {
+            position: relative;
+            background-color: white;
+            border: 3px solid darkorange;
+            padding: 15px 25px;
+
+        }
+
+        .badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background-color: forestgreen;
+            color: white;
+            padding: 4px 8px;
+
+        }
+
+        .section-label {
+            position: sticky;
+            top: 55px;
+            background-color: darkorange;
+            color: white;
+            padding: 10px 20px;
+            margin: 15px 0 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-bar">My pet page-buddy the labrador</div>
+    <h1>Meet buddy</h1>
+    <h2>Static</h2>
+    <div class="list-item">Breed: labrador</div>
+    <div class="list-item">Age: age</div>
+    <h2>Relative</h2>
+    <p>This note shifts right from its normal spot</p>
+    <div class="special-note">Pet of the month</div>
+    <h2>Absolute</h2>
+    <div class="pet-card"> 
+        <p>Buddy , labrador, two years</p>
+        <div class="badge">Adopted</div>
+    </div>
+
+
+    <h2>Sticky</h2>
+    <p>Scroll down-the label locks at the top </p>
+    <div class="section-label">More pets availabel</div>
+    <div class="list-item">Luna- poodle, one year</div>
+    <div class="card">German shephard, nine years</div>
+    <div class="card">Bulldog, ten years</div>
+    <div class="card">Beagle, fifteen years</div>
+    <div class="card">Golden retriver, twelve years</div>
+    <div class="card">Chihuahua, sixteen years</div>
+    <div class="card">Shih Tzu, fourteen years</div>
+
+    
+</body>
+
+</html>
